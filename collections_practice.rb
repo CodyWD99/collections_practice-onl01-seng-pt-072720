@@ -23,7 +23,7 @@ end
   end
   
   def reverse_array(integers)
-    integers.map.reverse
-     integers
+    integers2 = integers.reverse
+     integers2
   end
   
