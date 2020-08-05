@@ -1,4 +1,8 @@
-def sort_array_asc(integers)
   integers = [5, 1, 6, 4]
-  integers.sort
+def sort_array_asc(integers)
+  integers.sort do |a, b|
+    a<=>b
+  end
 end
+
+sort_array_asc(integers)
