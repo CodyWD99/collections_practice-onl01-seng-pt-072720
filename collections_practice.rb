@@ -44,7 +44,9 @@ def sum_array(integers)
   integers.sum
 end
 
-def add_s
+def add_s(array)
+  array.map do |var|
+    if var
   
   
   
