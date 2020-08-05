@@ -28,9 +28,9 @@ end
   end
   
   def kesha_maker(array)
-    keshatized = []
-    keshatized << array.each do |var|
-      var[3]= "$"
-    end
-    keshatized
-  end
+   keshatized = []
+   keshatized << array.each do |var|
+     var[2]= "$"
+   end
+  keshatized
+ end
