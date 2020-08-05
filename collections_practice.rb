@@ -41,7 +41,8 @@ end
 end
 
 def sum_array(integers)
-  
+  integers.sum
+end
   
   
   
