@@ -33,3 +33,7 @@ end
    end
   array
  end
+ 
+ def find_a(array)
+   array.find? |var|
+   if var.start_with?("a")
