@@ -35,5 +35,5 @@ end
  end
  
  def find_a(array)
-   array.find? |var|
-   
+   array.find? do|var|
+       
