@@ -4,5 +4,3 @@ def sort_array_asc(integers)
     a<=>b
   end
 end
-
-sort_array_asc(integers)
