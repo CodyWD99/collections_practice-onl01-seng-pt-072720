@@ -46,7 +46,7 @@ end
 
 def add_s(array)
   array.map do |var|
-    if var
+    if var == "feet"
   
   
   
