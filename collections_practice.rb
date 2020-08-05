@@ -38,5 +38,4 @@ end
    array.find? do |var|
     var.start_with?("a")
   end
-  array
 end
