@@ -10,7 +10,7 @@ def sort_array_desc(integers)
     b<=>a
   end
 end
-array = ["Hey", "What", "Goodbye"]
+array = ["Hey", "feet", "Goodbye"]
 def sort_array_char_count(array)
   array.sort do |a, b| 
   a.length <=> b.length
@@ -47,6 +47,11 @@ end
 def add_s(array)
   array.map do |var|
     if var == "feet"
+      next
+      elsif var.prepend("s")
+    end
+  end
+  
   
   
   
