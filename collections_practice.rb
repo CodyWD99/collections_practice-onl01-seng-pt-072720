@@ -35,7 +35,7 @@ end
  end
  
  def find_a(array)
-   array.find? do|var|
+   array.find? do |var|
     var.start_with?("a")
   end
 end
