@@ -51,6 +51,8 @@ def add_s(array)
       elsif var.prepend("s")
     end
   end
+  array
+  end
   
   
   
