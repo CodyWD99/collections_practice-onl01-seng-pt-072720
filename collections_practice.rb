@@ -23,7 +23,7 @@ end
   end
   
   def reverse_array(integers)
-    integers.reverse
+    integers.ma|
     integers
   end
   
